@@ -1,0 +1,5 @@
+# Pinned to the versions used for every number in the paper.
+torch==2.11.0
+numpy>=1.26,<3
+scikit-learn==1.8.0
+dpkt==1.9.8

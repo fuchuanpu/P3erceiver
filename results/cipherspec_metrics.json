@@ -1,0 +1,80 @@
+{
+  "tag": "cls_cipher_v4_cd_wsqrt",
+  "pretrained": "ckpt/_ckpt_pretrain_mawi_v4.pt",
+  "sample_aug": false,
+  "consistency": true,
+  "epochs": 120,
+  "seed": 42,
+  "linear_probe": false,
+  "encoder_lr_scale": 1.0,
+  "label_frac": 1.0,
+  "n_train": 12382,
+  "eval": {
+    "iid@1": {
+      "acc": 0.9584,
+      "macro_f1": 0.9584,
+      "macro_p": 0.9587,
+      "macro_r": 0.9584
+    },
+    "iid@0.5": {
+      "acc": 0.839,
+      "macro_f1": 0.8391,
+      "macro_p": 0.8407,
+      "macro_r": 0.839
+    },
+    "iid@0.25": {
+      "acc": 0.6642,
+      "macro_f1": 0.6662,
+      "macro_p": 0.6753,
+      "macro_r": 0.6642
+    },
+    "iid@0.125": {
+      "acc": 0.4662,
+      "macro_f1": 0.4692,
+      "macro_p": 0.4919,
+      "macro_r": 0.4662
+    },
+    "iid@0.0625": {
+      "acc": 0.3487,
+      "macro_f1": 0.3468,
+      "macro_p": 0.3779,
+      "macro_r": 0.3487
+    },
+    "iid@0.03125": {
+      "acc": 0.2716,
+      "macro_f1": 0.2632,
+      "macro_p": 0.3004,
+      "macro_r": 0.2716
+    },
+    "systematic@0.5": {
+      "acc": 0.814,
+      "macro_f1": 0.814,
+      "macro_p": 0.8184,
+      "macro_r": 0.814
+    },
+    "systematic@0.25": {
+      "acc": 0.6907,
+      "macro_f1": 0.6919,
+      "macro_p": 0.7027,
+      "macro_r": 0.6907
+    },
+    "systematic@0.125": {
+      "acc": 0.5231,
+      "macro_f1": 0.5249,
+      "macro_p": 0.5467,
+      "macro_r": 0.5231
+    },
+    "systematic@0.0625": {
+      "acc": 0.3536,
+      "macro_f1": 0.346,
+      "macro_p": 0.3769,
+      "macro_r": 0.3536
+    },
+    "systematic@0.03125": {
+      "acc": 0.2721,
+      "macro_f1": 0.2612,
+      "macro_p": 0.3018,
+      "macro_r": 0.2721
+    }
+  }
+}
